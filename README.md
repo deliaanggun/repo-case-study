@@ -30,20 +30,19 @@ Persyaratan:
 - Postman Desktop Agent karena dijalankan secara lokal
 
 Konfigurasi pada application.properties:
-spring.application.name=Books
-spring.datasource.url=jdbc:mysql://localhost:3306/Books
-#spring.datasource.url=jdbc:mysql:mem/books
-spring.datasource.username=root
-spring.datasource.password=7890
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+- spring.application.name=Books
+- spring.datasource.url=jdbc:mysql://localhost:3306/Books
+- spring.datasource.username=root
+- spring.datasource.password=7890
+- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-spring.datasource.testWhileIdle=true
-spring.datasource.validationQuery=SELECT 1
+- spring.datasource.testWhileIdle=true
+- spring.datasource.validationQuery=SELECT 1
 
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
+- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+- spring.jpa.hibernate.ddl-auto=update
 
-spring.h2.console.enabled=true
-spring.h2.console.path=/h2
+- spring.h2.console.enabled=true
+- spring.h2.console.path=/h2
 
