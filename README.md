@@ -18,7 +18,10 @@ Endpoint:
 - DELETE /books/{id}: Menghapus buku dari perpustakaan berdasarkan ID.
 
 Instalasi:
-- 
+-  git clone https://github.com/deliaanggun/repo-case-study.git
+-  cd repo-case-study
+-  mvn clean install
+-  mvn spring-boot:run
 
 Persyaratan:
 - Java JDK 19
